@@ -7,7 +7,6 @@
 }
 .navigation{
     display: flex;
-    /* justify-content: space-between; */
     width: 1088PX;
     margin-left: 139PX;
     margin-right: 139PX;
@@ -43,3 +42,174 @@
     margin-top: 14px;
 }
 /* პირველი სექცია */
+.maps{
+    display: flex;
+    margin-top: 50px;
+    width: 1088px;
+    height: 286px;
+    margin-left: 139px;
+    margin-right: 139px;
+    margin-bottom: 56px;
+}
+.block{
+    width: 378px;
+    height: 140px;
+    margin-left: 139px;
+}
+.contact2{
+    font-size: 14px;
+    color: #5863F8;
+}
+.contact3{
+    font-size: 42px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+/* მეორე სექცია */
+.section2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 139px;
+    margin-right: 139px;
+    width: 1088px;
+}
+.left-block{
+    width: 720px;
+    height: 280px;
+    background-color: #F8F8F8;
+}
+.description{
+    font-size: 13px;
+    color: #CECECE;
+}
+.right-block{
+    width: 352px;
+    background-color: yellow;
+}
+.section22{
+    width: 1108px;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 129px;
+    margin-right: 129px;
+    margin-top: 5px;
+    margin-bottom: 90px;
+}
+.section333{
+    width: 350px;
+    text-align: center;
+}
+.email{
+    font-size: 18px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.example{
+    font-size: 14px;
+    color: #B1B1B1;
+}
+.section222{
+    height: 135px;
+    width: 565px;
+    margin-left: 129px;
+    margin-bottom: 50px;
+}
+.photo{
+    font-size: 14px;
+    color: #5863F8;
+    margin-top: 1px;
+}
+.see{
+    font-size: 42px;
+    color: #000000;
+    margin-top: 1px;
+}
+.last{
+    width: 1366px;
+    display: flex;
+    justify-content: space-between;
+}
+/* ფუტერი */
+.footer{
+    width: 1366px;
+    background-color: #121212;
+}
+.blockk{
+    display: flex;
+    justify-content: space-around;
+}
+.block1{
+    width: 260px;
+    height: 191px;
+    margin-right: 200px;
+    margin-top: 90px;
+    margin-bottom: 54px;
+    margin-left: 139px;
+}
+.block2{
+    width: 103px;
+    height: 155px;
+    margin-right: 81px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.block3{
+    width: 78px;
+    height: 155px;
+    margin-right: 106px;
+    margin-top: 90px;
+}
+.block4{
+    width: 198px;
+    height: 145px;
+    margin-top: 90px;
+    margin-right: 201px;
+    margin-bottom: 100px;
+}
+.blockkk{
+    display: flex;
+    justify-content: space-between;
+}
+.zeta{
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 148px;
+}
+.useful{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.hotel{
+    font-size: 14px;
+    color: #B1B1B1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.blogg{
+    font-size: 14px;
+    color: #5863F8;
+    margin-bottom: 10px;
+}
+.exa{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.portfolio{
+    font-size: 14px;
+    color: #5863F8;
+    margin-right: 139px;
+    margin-bottom: 40px;
+}
+.copy{
+    font-size: 14px;
+    color: #5863F8;
+    margin-left: 139px;
+    margin-bottom: 40px;
+}
+.fa-facebook{
+    width: 35px;
+    margin-right: 6px;
+}
