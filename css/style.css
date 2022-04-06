@@ -1,0 +1,45 @@
+.image{
+    background-image: url("/image/tt.png");
+    background-color: #000000 ;
+    background-size: contain;
+    height: 324px;
+    width: 1366px;
+}
+.navigation{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 1088PX;
+    margin-left: 139PX;
+    margin-right: 139PX;
+}
+.ul{
+    font-size: 14px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.li{
+    margin-right: 50px;
+    font-size: 12px;
+}
+.zeta{
+    margin-right:459px;
+    font-size: 14px;
+}
+.center{
+    margin-left: 139PX;
+    margin-top: 136px;
+    margin-bottom: 85px;
+    width: 177px;
+    color: #FFFFFF;
+    text-align: left;
+}
+.contact{
+    font-size: 42px;
+}
+.home{
+    font-size: 14px;
+    margin-top: 14px;
+}
+/* პირველი სექცია */
