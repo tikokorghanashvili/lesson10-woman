@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 .image{
     background-image: url("../image/tt.png");
     background-size: cover;
@@ -14,6 +21,8 @@
     opacity: 30%;
 } */
 .navigation{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 1088PX;
     margin-left: 139PX;
@@ -22,8 +31,12 @@
 .ul{
     font-size: 14px;
     color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 30px;
     width: 100%;
 }
@@ -51,10 +64,16 @@
 }
 .home{
     margin-top: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content:flex-start;
+    -webkit-box-pack:start;
+        -ms-flex-pack:start;
+            justify-content:flex-start;
 }
 .home1{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 19px;
 }
@@ -99,8 +118,12 @@
 }
 /* მეორე სექცია */
 .section2{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-left: 139px;
     margin-right: 139px;
     width: 1088px;
@@ -112,6 +135,22 @@
     background-color: #F8F8F8;
     margin-right: 16px;
 }
+.left-block::-webkit-input-placeholder{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.left-block::-moz-placeholder{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.left-block:-ms-input-placeholder{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.left-block::-ms-input-placeholder{
+    padding-left: 20px;
+    padding-top: 20px;
+}
 .left-block::placeholder{
     padding-left: 20px;
     padding-top: 20px;
@@ -119,14 +158,39 @@
 .right-block{
     width: 352px;
     height: 280px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .input{
     background-color: #F8F8F8;
     width: 100%;
     height: 60px;
     margin-bottom: 16px;
+}
+.input::-webkit-input-placeholder{
+    font-size: 13px;
+    color: #CECECE;
+    padding-left: 20px;
+}
+.input::-moz-placeholder{
+    font-size: 13px;
+    color: #CECECE;
+    padding-left: 20px;
+}
+.input:-ms-input-placeholder{
+    font-size: 13px;
+    color: #CECECE;
+    padding-left: 20px;
+}
+.input::-ms-input-placeholder{
+    font-size: 13px;
+    color: #CECECE;
+    padding-left: 20px;
 }
 .input::placeholder{
     font-size: 13px;
@@ -149,8 +213,12 @@
 .section22{
     width: 1108px;
     height: 170px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-left: 129px;
     margin-right: 129px;
     margin-top: 5px;
@@ -189,16 +257,23 @@
     margin-top: 1px;
 }
 .last{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 /* ფუტერი */
 .footer{
     background-color: #121212;
 }
 .blockk{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 .block1{
     width: 260px;
@@ -229,8 +304,12 @@
     margin-bottom: 100px;
 }
 .blockkk{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .zeta{
     font-size: 24px;
@@ -271,8 +350,12 @@
     margin-bottom: 40px;
 }
 .icons{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
 }
 .fa-facebook{
     width: 35px;
@@ -290,8 +373,12 @@
     background-color:  #DC4E41;
 }
 .iconss{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
 }
 .fa-envelope{
     margin-right: 17px;
