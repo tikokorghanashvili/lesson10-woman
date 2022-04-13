@@ -35,6 +35,9 @@
     margin-right:439px;
     font-size: 14px;
 }
+.home-li{
+    color: #5863F8;
+}
 .center{
     margin-left: 139PX;
     margin-top: 136px;
@@ -51,14 +54,22 @@
     display: flex;
     justify-content:flex-start;
 }
-/* .home1::after{
+.home1{
+    display: flex;
+    height: 19px;
+}
+.home1::after{
     content: ' ';
     height: 19px;
     width: 2px;
-    color: #FFFFFF;
-    margin-right: 15px;
+    background-color: #FFFFFF;
+    margin-left: 15px;
     display: inline-block;
-} */
+}
+.home2{
+    margin-left: 15px;
+    height: 19px;
+}
 
 /* პირველი სექცია */
 .maps{
@@ -78,11 +89,13 @@
 .contact2{
     font-size: 14px;
     color: #5863F8;
+    font-weight: bold;
 }
 .contact3{
     font-size: 42px;
     color: #000000;
     margin-bottom: 50px;
+    font-weight:bolder;
 }
 /* მეორე სექცია */
 .section2{
@@ -99,6 +112,10 @@
     background-color: #F8F8F8;
     margin-right: 16px;
 }
+.left-block::placeholder{
+    padding-left: 20px;
+    padding-top: 20px;
+}
 .right-block{
     width: 352px;
     height: 280px;
@@ -114,6 +131,7 @@
 .input::placeholder{
     font-size: 13px;
     color: #CECECE;
+    padding-left: 20px;
 }
 .submit{
     width: 100%;
@@ -121,6 +139,12 @@
     background-color: #5863F8;
     color: #FFFFFF;
     border: none;
+}
+.submit1{
+    padding-left: 10px;
+    font-size: 15px;
+    width: 5px;
+    height: 5px;
 }
 .section22{
     width: 1108px;
