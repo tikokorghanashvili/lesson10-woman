@@ -211,8 +211,8 @@
     height: 5px;
 }
 .section22{
-    width: 1108px;
-    height: 170px;
+    max-width: 1088px;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -229,12 +229,17 @@
     height: 147px;
     text-align: center;
     margin-top: 50px;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+
 }
 .email{
     font-size: 18px;
     color: #000000;
     margin-top: 15px;
     margin-bottom: 5px;
+    font-weight: bolder;
 }
 .example{
     font-size: 14px;
@@ -345,7 +350,7 @@
 }
 .copy{
     font-size: 14px;
-    color: #5863F8;
+    color: white;
     margin-left: 139px;
     margin-bottom: 40px;
 }
@@ -357,20 +362,49 @@
         -ms-flex-pack: start;
             justify-content: flex-start;
 }
-.fa-facebook{
+.fb{
     width: 35px;
     height: 35PX;
     background-color:  #3B5998;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+}
+.fa-facebook-square{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+}
+.twitter{
+    width: 35px;
+    height: 35PX;
+    background-color: cyan;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
 }
 .fa-twitter{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.google-plus{
     width: 35px;
     height: 35PX;
-    background-color:  #55ACEE;
+    background-color: brown;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .fa-google-plus-g{
-    width: 35px;
-    height: 35PX;
-    background-color:  #DC4E41;
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
 .iconss{
     display: -webkit-box;
@@ -381,14 +415,33 @@
             justify-content: flex-start;
 }
 .fa-envelope{
-    margin-right: 17px;
+    margin-right: 16px;
     color: #5863F8;
 }
 .fa-phone{
-    margin-right: 17px;
+    margin-right: 16px;
     color: #5863F8;
 }
 .fa-location-pin{
-    margin-right: 17px;
-    color:  #5863F8;
+    margin-right: 16px;
+    color: #5863F8;
+}
+.sect333{
+    width: 58px;
+    height: 58px;
+    background-color: #5863F8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.fa-envelope-circle-check{
+    color: white;
+}
+.fa-phone-flip{
+    color: white;
+}
+.fa-location-arrow{
+    color: white;
 }
